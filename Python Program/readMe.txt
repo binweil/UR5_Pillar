@@ -1,6 +1,4 @@
-Make sure you have following files in your directory, in order to run the various examples:
-
-1. vrep.py
-2. vrepConst.py
-3. the appropriate remote API library: "remoteApi.dll" (Windows), "remoteApi.dylib" (Mac) or "remoteApi.so" (Linux)
-4. simpleTest.py (or any other example file)
+1. This is the UR5_Pillar scene. Easy case contains three size pillars, Medium case contains three long rod with small gap, Hard case is the same setup with medium case but the UR5 grabs a rod.
+2. The start and goal configuartion can be found in the "Start_and_Goal_Config.txt". Odd row represents start config, even row represents goal config.
+3. To run the simulation, first open the VREP scene, then run the python script named "main.py". The python program uses "numpy" plugin, please make sure your computer have installed the package.
+4. It takes about 10-20 secs for the VREP OMPL to find appropriate path. To view the detail of algorithm timing, please refer to the excel sheet shared on the Google Drive.  
